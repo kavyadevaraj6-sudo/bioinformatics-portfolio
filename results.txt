@@ -1,0 +1,4 @@
+Genome: NC_000913.3
+Length: 4641652 base pairs
+GC Content: 50.79%
+ATG motif count: 76282
