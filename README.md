@@ -42,6 +42,24 @@ python3 analyser.py
 
 ---
 
+
+## project 2:
+Gene Analysis: Human Insulin (INS)
+
+A focused analysis script applying core Python and sequence-analysis fundamentals to a real gene: the human insulin (INS) mRNA transcript (NCBI accession NM_000207.3).
+
+**What it does:**
+- Calculates sequence length, base composition, and GC content
+- Extracts and displays the first/last 10 bases and the reverse complement
+- Checks for a start codon (ATG) at the sequence start
+- Classifies the final base as a purine or pyrimidine
+
+**Tools:** Python (string methods, slicing, conditional logic)
+
+**Notable finding:** the transcript region analysed does not begin with an ATG start codon — consistent with this being a portion of the mRNA sequence rather than the coding sequence (CDS) alone, a useful reminder that FASTA/NCBI records often include untranslated regions (UTRs) alongside the coding sequence.
+
+See [`gene_analysis.py`](gene_analysis.py).
+
 ## About me
 MSc Bioinformatics (Teesside University) | MSc Environmental Biotechnology  
 Currently rebuilding computational skills — Python, Biopython, R, NGS pipelines  
